@@ -12,8 +12,8 @@ echo "----------------------------------------------------"
 
 
 addition(){
-    num1=$1
-    num2=$2
+  local  num1=$1
+   local num2=$2
    let sum=$1+$2
     echo "Sum of $num1 + $num2 = $sum "
 }
@@ -26,8 +26,8 @@ echo "----------------------------------------------------"
 
 
 Subtraction(){
-    num1=$1
-    num2=$2
+   local num1=$1
+    local  num2=$2
    let sub=$1-$2
     echo "Subtraction of $num1 + $num2 = $sub "
 }
@@ -42,8 +42,8 @@ echo "----------------------------------------------------"
 
 
 Multiplication(){
-    num1=$1
-    num2=$2
+   local num1=$1
+   local num2=$2
    let mul=$1*$2
     echo "Multiplication of $num1 * $num2 = $mul "
 }
@@ -58,8 +58,8 @@ echo "----------------------------------------------------"
 
 
 Division(){
-    num1=$1
-    num2=$2
+   local num1=$1
+   local num2=$2
    let div=$1/$2
     echo "Divison of $num1 / $num2 = $div "
 }
